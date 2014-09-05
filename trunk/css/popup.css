@@ -1,0 +1,173 @@
+
+#TB_window {
+	border: none!important;height:auto !important;
+	}
+	#TB_ajaxContent {width:auto !important;padding:0px !important;}
+#intouch-popup {
+	font: 12px/20px Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	}
+	
+#intouch-popup * { font: 12px/20px Arial, Helvetica, sans-serif;	}
+
+#intouch-sc-form-wrap {}
+	
+#intouch-sc-form-wrap #intouch-sc-form-head {
+	padding: 15px 15px 15px 12px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 1;
+	background-color: #404040;
+	}
+	
+#intouch-popup.no_preview #intouch-sc-form-wrap #intouch-sc-form-head { width: auto; }
+#intouch-sc-form-wrap #intouch-sc-form {}
+
+.field .button-primary {
+	height: 30px!important; 
+	line-height: 28px!important; 
+	padding: 0 12px 2px!important;
+	}
+
+
+/*--------------------------------------------------------------------*/
+/*	02. FORM GENERAL
+/*--------------------------------------------------------------------*/
+#intouch-sc-form-table {padding:15px; width: 100%; }
+
+#intouch-sc-form-table tbody tr.form-row {
+	display: block;
+	padding: 8px 0;
+	border-bottom: solid 1px #F0F0F0;
+	}
+	
+#intouch-sc-form-table tbody:last-child tr.form-row { border-bottom: none; }
+
+#intouch-sc-form-table tbody tr.form-row .label {
+	width: 130px;
+	text-align: left;
+	vertical-align: top;
+	line-height: 35px;
+	padding-right: 20px;
+	font-weight: bold;
+	}
+	
+#intouch-sc-form-table tbody tr.form-row .field { width: 370px; }
+
+#intouch-sc-form-table tbody tr.form-row .intouch-insert { color: #fff; }
+
+
+/*  A.  Child rows, sortable -----------------------------------------*/
+#intouch-sc-form-table .has-child #form-child-add {
+	display: block;
+	width: 100%;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	text-align: center;
+	color: #333;
+	outline: none;
+	}
+#intouch-sc-form-table .has-child .child-clone-rows { display: block; }
+
+#intouch-sc-form-table .has-child .child-clone-rows .child-clone-row {
+	padding: 8px 15px;
+	background: #f5f5f5;
+	border: solid 1px #dfdfdf;
+	margin-bottom: 10px;
+	cursor: move;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+	
+#intouch-sc-form-table .has-child .sortable-placeholder {
+	border: dashed 1px #bbb;
+	margin-bottom: 10px;
+	-moz-border-radius: 3px;
+	border-radius: 5px;
+	background: #f5f5f5;
+	height: 40px;
+	}
+	
+#intouch-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form { display: block; }
+
+#intouch-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row {
+	display: block;
+	padding: 5px 0;
+	}
+	
+#intouch-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row .child-clone-row-label label {
+	display: block;
+	font-weight: bold;
+	padding-bottom: 7px;
+	line-height: 1;
+	}
+	
+#intouch-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove {
+	color: #FF0000;
+	padding: 1px;
+	}
+	
+#intouch-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove:hover {
+	color: #fff;
+	background: #FF0000;
+	}
+
+#content_intouch_button { outline: none; }
+
+
+
+/*--------------------------------------------------------------------*/
+/*	03. INPUT STYLES
+/*--------------------------------------------------------------------*/
+#intouch-sc-form-table tbody tr.form-row .intouch-form-text,
+#intouch-sc-form-table tbody tr.form-row .intouch-form-textarea{
+	width: 370px;
+	padding: 5px 10px;
+	-webkit-appearance:none;
+	}
+
+#intouch-sc-form-table tbody tr.form-row .intouch-form-text:focus,
+#intouch-sc-form-table tbody tr.form-row .intouch-form-textarea:focus {
+ 	outline:none;
+	}
+	
+	
+/*  A.  All ----------------------------------------------------------*/
+#intouch-sc-form-table tbody tr.form-row .intouch-form-select {
+	width: 370px;
+	border: 1px solid #CFCFCF;
+	}
+	
+#intouch-sc-form-table tbody tr.form-row.has-child .intouch-form-text,
+#intouch-sc-form-table tbody tr.form-row.has-child .intouch-form-textarea,
+#intouch-sc-form-table tbody tr.form-row.has-child .intouch-form-select {
+	background: #fff;
+	width: 485px;
+	}
+
+/*  B.  Textarea -----------------------------------------------------*/
+#intouch-sc-form-table tbody tr.form-row .intouch-form-textarea { height: 120px; }
+#intouch-sc-form-table tbody tr.form-row.has-child .intouch-form-textarea { height: 100px; }
+
+/*  C.  Select -------------------------------------------------------*/
+#intouch-sc-form-table tbody tr.form-row .intouch-form-select {
+	display: block;
+	}
+	
+#intouch-sc-form-table tbody tr.form-row.has-child .intouch-form-select {
+	width: auto;
+	}
+
+/*  D.  Description Text ---------------------------------------------*/
+#intouch-sc-form-table tbody tr.form-row .field .intouch-form-desc,
+#intouch-sc-form-table tbody tr.form-row .child-clone-row-desc {
+	display: block;
+	font-size:  12px;
+	color: #B9B9B9;
+	padding-top: 3px;
+	
