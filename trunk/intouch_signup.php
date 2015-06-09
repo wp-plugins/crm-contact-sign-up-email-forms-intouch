@@ -4,7 +4,7 @@
     Plugin URI: http://www.intouchcrm.com
     Description: Plugin for displaying signup forms within a user's account from intouch. It allows the user to easily add their signup form in.
     Author: InTouch
-    Version: 1.0
+    Version: 1.1
     Author URI: http://www.intouchcrm.com/
     */
    
@@ -181,6 +181,9 @@
 			} else {
 				$filteredHtml = $filteredHtml . $powerd_by;
 			}
+			
+			// Add the validation script to the plugin output - #BUG 001
+			$filteredHtml = $filteredHtml . $html->find('script',0)->outertext;
 			
 			return $filteredHtml;
 		}
