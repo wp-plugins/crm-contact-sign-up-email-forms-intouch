@@ -4,7 +4,7 @@ Donate link: http://www.intouchcrm.com
 Tags: Intouch, Contact Form, Web Form, Email Form, Subscription Form, Sign-up forms, CRM
 Requires at least: 3.5
 Tested up to: 3.9.2
-Stable tag: 4.4
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,6 +66,9 @@ Contact our support team who will be happy to answer any problems you may encoun
 
 == Changelog ==
 
+= 1.1 =
+* Fixed Issue With Input Validation
+
 = 1.0 =
 * The plugin was Born
 * Includes wordpress hooks for Widgets and Posts
@@ -77,6 +80,9 @@ Contact our support team who will be happy to answer any problems you may encoun
 * Text editor shortcode button
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Fixed Issue With Input Validation
 
 = 1.0 =
 Version 1.0 is the initial release, please ensure you upgrade to any new versions to ensure your forms continue to work.
