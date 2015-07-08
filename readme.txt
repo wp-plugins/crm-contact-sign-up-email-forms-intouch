@@ -65,6 +65,8 @@ Contact our support team who will be happy to answer any problems you may encoun
 2. This screenshot illustrates how to use the in-editor button to place a form shortcode easily into a page or post. intouch-form-editor-button.jpg
 
 == Changelog ==
+= 1.2 =
+* Fixed Fatal error file_get_html() 
 
 = 1.1 =
 * Fixed Issue With Input Validation
