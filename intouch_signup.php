@@ -9,8 +9,12 @@
     */
    
     //PHP does not have a native way of implementing ENUMS, we must use a class unfortuantely. 
+    
+    //Check to see if file_get_html is allready loaded to avoid Fatal error
+	if(!function_exists(file_get_html)) {
+		require_once include('simple_html_dom.php'); 
+		}
 	
-	include('simple_html_dom.php');
 	include('shortcode.php');
     class Response
 	{
