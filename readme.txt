@@ -4,7 +4,7 @@ Donate link: http://www.intouchcrm.com
 Tags: Intouch, Contact Form, Web Form, Email Form, Subscription Form, Sign-up forms, CRM
 Requires at least: 3.5
 Tested up to: 3.9.2
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,8 +65,9 @@ Contact our support team who will be happy to answer any problems you may encoun
 2. This screenshot illustrates how to use the in-editor button to place a form shortcode easily into a page or post. intouch-form-editor-button.jpg
 
 == Changelog ==
-= 1.2 / 1.3 / 1.4=
+= 1.5 =
 * Fixed Fatal error file_get_html()
+
 
 = 1.1 =
 * Fixed Issue With Input Validation
